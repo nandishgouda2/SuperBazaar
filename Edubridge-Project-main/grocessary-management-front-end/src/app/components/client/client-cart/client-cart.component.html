@@ -1,0 +1,36 @@
+<div class="client-cart">
+<br /><br />
+<div *ngIf="cartList.length===0" class="centered5" style="text-align: center;">
+    No product available in cart
+</div>
+
+<div *ngIf="cartList.length>0" class="centered">
+    <h1 style="text-align: center;font-size: 40px;">Client Cart List</h1>
+<table border="1">
+    <tr>
+        <th>Product Name</th>
+        <th>Image</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+        <th></th>
+        </tr>
+    <tr *ngFor="let cart of cartList">
+        <td>{{cart?.product?.productname}}</td>
+        <td><img [src]="cart?.product?.image" /></td>
+        <td><button (click)="onIncreaseQunatity(cart)" class="button-padding">+</button>{{cart?.quantity}}<button (click)="onDecreaseQunatity(cart)" class="button-padding">-</button></td>
+        <td>{{cart?.mrpPrice}}</td>
+        <td>{{getTotal(cart?.quantity,cart?.mrpPrice)}}</td>
+        <td><button (click)="deleteCart(cart)" mat-raised-button color="primary">Delete Cart</button></td>
+        
+
+
+    </tr>
+</table>
+
+</div>
+<br />
+<div class="centered3" *ngIf="cartList.length!==0">
+    <b style="font-size: 20px;">Grand Total: &nbsp;&nbsp; {{grandTotal}} &nbsp;&nbsp;</b><button (click)="placeOrder()" mat-raised-button color="primary">Place Order</button>
+</div>
+</div>

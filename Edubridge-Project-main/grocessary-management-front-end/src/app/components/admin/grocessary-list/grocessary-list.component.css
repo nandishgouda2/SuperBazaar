@@ -1,0 +1,25 @@
+table tr td img{
+    height:200px;
+    width:200px;
+   
+}
+table{
+    border: 2px solid black;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.image5{
+    
+        background-image: url("https://wallpapers.com/images/featured/blue-and-orange-background-zv7dpby3moqrv3uq.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+      
+        margin-top: -40px;
+    
+}

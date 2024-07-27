@@ -1,0 +1,54 @@
+h1{
+    color: white;
+}
+.client-login {
+       
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+      height: 400px;  
+      width: 35%;
+      margin: 0 auto;
+      box-shadow: 10cqmax;
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, .2);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px; 
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+.clienthome{
+    background-image: url("https://img.freepik.com/premium-vector/blurry-background-with-soft-texture_1159-747.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 10%;
+    
+  }
+    .main1{
+        padding: 0;
+      
+        margin-top: -43px;
+
+    }
+  .item-icon input{
+    border-radius: 10px;
+    height: 40px;
+    width: 350px;
+  }
+  button{
+    background-color: orange;
+    border-radius: 20px;
+    width:350px;
+    height: 45px;
+    font-size: 25px;  
+    color: white;
+  }
+   

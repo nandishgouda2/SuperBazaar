@@ -1,0 +1,48 @@
+
+.centered {
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+table{
+    border: 2px solid black;
+}
+
+th{
+    
+    font-size: 20px;
+}
+
+.tbl th, td{
+   
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+.tbl td, img{
+   
+    width: 200px;
+    height: 200px;
+}
+
+.mat-datepicker-toggle {
+    color: black;
+}
+.image5{
+    
+    background-image: url("https://wallpapers.com/images/featured/blue-and-orange-background-zv7dpby3moqrv3uq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+   
+    margin-top: -40px;
+
+}
+.style4{
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 18px;
+}

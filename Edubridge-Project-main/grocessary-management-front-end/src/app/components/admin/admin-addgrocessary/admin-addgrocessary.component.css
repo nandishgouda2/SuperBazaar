@@ -1,0 +1,55 @@
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+   
+}
+table tr td{
+        padding: 10px;
+       
+        
+}
+.add-grossary-tab {
+    width: 100%;
+    margin-left: 650px;
+    box-shadow: rgb(109 109 125 / 28%) 0px 4px 7px 12px;
+    /* padding: 20px; */
+    height: 550px;
+    margin-top: 80px;
+    
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+   
+    
+}
+.background{
+    background-image: url("https://wallpapers.com/images/featured/blue-and-orange-background-zv7dpby3moqrv3uq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    position: relative;
+    border: 2px solid;
+    margin-top: -20px;
+}
+.btncolor{
+    font-size:25px;
+    border-radius: 15px;
+    width:180px;
+    background-color: rgb(26, 44, 183);
+    height: 50px;
+}
+.background2{
+    background-image: url("https://ae01.alicdn.com/kf/HTB1NNRRh_vI8KJjSspjq6AgjXXaP/4PCS-Set-Shopping-Cart-Trolley-Bags-Foldable-Reusable-Grocery-Shopping-Bag-Eco-Supermarket-Bag-Easy-to.jpg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    margin-left: 100px;
+}

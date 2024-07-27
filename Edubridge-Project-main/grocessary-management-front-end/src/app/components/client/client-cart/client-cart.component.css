@@ -1,0 +1,46 @@
+table tr td img{
+    height:150px;
+    width:200px;
+    border: 2px solid black;
+   
+}
+table{
+    margin-top: 80px;
+    border: 2px solid black;
+   margin-left: auto;
+   margin-right: auto;
+}
+table tr{
+    font-size: 20px;
+}
+.centered {
+     /* display: flex; */
+    /* justify-content: center; */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/262/214/530/orange-and-blue-fire-and-ice-gradient-wallpaper-preview.jpg");
+}
+.centered3 {
+    /* display: flex; */
+   /* justify-content: center; */ 
+   margin-left: auto;
+   text-align: center;
+   margin-right: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url("https://c4.wallpaperflare.com/wallpaper/262/214/530/orange-and-blue-fire-and-ice-gradient-wallpaper-preview.jpg");
+}
+.client-cart{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/262/214/530/orange-and-blue-fire-and-ice-gradient-wallpaper-preview.jpg");
+    height: 580px;
+}
+mat-button-toggle-group{
+    background-color: aqua;
+}
+.centered5{
+    font-size: 30px;
+    text-align: center;
+}

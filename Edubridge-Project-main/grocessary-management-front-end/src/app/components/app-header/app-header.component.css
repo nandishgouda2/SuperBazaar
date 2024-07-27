@@ -1,0 +1,46 @@
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main > .selected {
+    color: rgb(25, 52, 104);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+.main h2{
+  color: #4defcc;
+  
+   font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   
+   
+}
+.main img {
+    height: 3em;
+    width: 200px;
+    margin-left: -50px;
+}
+.main div
+{
+    padding: 60px;
+    cursor: pointer;
+ 
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+.main :hover {
+    color: orange;
+    display: inline;
+    
+}

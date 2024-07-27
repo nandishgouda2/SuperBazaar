@@ -1,0 +1,51 @@
+.adminhome{
+    background-image: url("https://img.freepik.com/premium-vector/blurry-background-with-soft-texture_1159-747.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 10%;
+  }
+    
+  .admin-login {
+     
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+      height: 380px;  
+      width: 35%;
+      margin: 0 auto;
+      box-shadow: 10cqmax;
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, .2);
+      
+  }
+  .btn{
+    background-color: orange;
+   border-radius: 10px;
+    width:350px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 22px;
+  }
+  .btn :hover{
+    background-color: rgb(36, 10, 84);
+  }
+  
+  .deepa{
+    margin-top: 35px;
+   font-size: 35px;
+  color: white;
+  }
+  .deepa2{
+    border-radius: 10px;
+    height: 40px;
+    width: 350px;
+  }
+  
+  /* .item-icon{
+    color: white;
+    line-height: 0.8;
+    z-index: -1;
+  } */
